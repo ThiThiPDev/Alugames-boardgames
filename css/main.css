@@ -135,3 +135,38 @@
     margin-right: 33px;
     align-self: flex-end;
 }
+
+@media (max-width: 1250px) {
+    .page-title {
+        align-items: center;
+        font-size: 1.7rem;
+        text-align: center;
+        transform: translateY(-50px);
+    }
+    
+    .divisor {
+        position: relative;
+        transform: translateY(-50px);
+    }
+
+    .dashboard {
+        transform: translateY(-50px);
+        padding: 2rem 0rem 0.1rem 0rem;
+    }
+
+    .dashboard__items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dashboard__item__button {
+        display: flex;
+        justify-content: center;
+        transform: translateY(-30px);
+    }
+
+    .hachuras {
+        align-self: center;
+        transform: translate(15px, -20px) scale(0.8);
+    }
+}
