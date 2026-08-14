@@ -66,6 +66,8 @@
 
     padding: 3rem;
     width: 100%;
+
+    box-sizing: border-box;
 }
 
 .dashboard__items {
@@ -117,13 +119,18 @@
 
     font-weight: 700;
     font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
 
     padding: 1rem 1.5rem;
     min-width: 13rem;
 
     border-radius: 1rem;
-
+    border: none;
+    
+    color: white;
     background-color: #1875E8;
+
+    cursor: pointer;
 }
 
 .dashboard__item__button--return {
@@ -137,6 +144,10 @@
 }
 
 @media (max-width: 1250px) {
+    body {
+        overflow-x: hidden;
+    }
+    
     .page-title {
         align-items: center;
         font-size: 1.7rem;
