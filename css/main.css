@@ -6,6 +6,7 @@
 
     min-height: 100vh;
 
+
     background: rgb(0, 0, 0);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(1, 8, 14, 1) 25%, rgba(80, 94, 255, 0.85) 50%, rgba(1, 8, 14, 1) 75%, rgba(0, 0, 0, 1) 100%);
     background-repeat: no-repeat;
@@ -66,8 +67,6 @@
 
     padding: 3rem;
     width: 100%;
-
-    box-sizing: border-box;
 }
 
 .dashboard__items {
@@ -149,7 +148,6 @@
     }
     
     .page-title {
-        align-items: center;
         font-size: 1.7rem;
         text-align: center;
         transform: translateY(-50px);
@@ -158,6 +156,10 @@
     .divisor {
         position: relative;
         transform: translateY(-50px);
+    }
+
+    .divisor__line {
+        display: none;
     }
 
     .dashboard {
