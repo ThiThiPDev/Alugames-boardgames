@@ -147,6 +147,10 @@
         overflow-x: hidden;
     }
     
+    .botao:focus {
+        outline: none;
+    }
+
     .page-title {
         font-size: 1.7rem;
         text-align: center;
